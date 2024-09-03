@@ -15,7 +15,7 @@ const CONFIG = {
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '关于锐赞', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL: 'https://ryzanedu.com', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_ICON: '/images/starter/ryzan/wechat-enterprise.svg', // 英雄区按钮1的图标，不需要则留空
+  STARTER_HERO_BUTTON_1_ICON: '/images/starter/ryzan/ryzan_logo_bold_w_13x24.svg', // 英雄区按钮1的图标，不需要则留空
   STARTER_HERO_BUTTON_2_TEXT: '联系我们', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://ryzanedu.com', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/ryzan/wechat-enterprise.svg', // 英雄区按钮2的图标，不需要则留空
