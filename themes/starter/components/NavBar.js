@@ -67,6 +67,7 @@ export const NavBar = (props) => {
                         <DarkModeButton/>
                         {/* 注册登录功能 */}
                         <div className="hidden sm:flex">
+                        {/* 
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
                             className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base font-medium hover:opacity-70`}
@@ -79,6 +80,7 @@ export const NavBar = (props) => {
                             >
                            {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
                             </a>
+                             */}
                         </div>
                     </div>
 
