@@ -35,24 +35,24 @@ export const Hero = () => {
                 className="mb-10 flex flex-wrap items-center justify-center gap-5"
               >
                 {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG) &&
-                <li>
+                <li className="flex-1">
                   <a
                     href={siteConfig('STARTER_HERO_BUTTON_1_URL', null, CONFIG)}
-                    className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color min-w-[200px]"
+                    className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color w-full"
                   >
-                    {siteConfig('STARTER_HERO_BUTTON_1_ICON', null, CONFIG) && <img className='mr-4' src={siteConfig('STARTER_HERO_BUTTON_1_ICON', null, CONFIG)}/>}
+                    {siteConfig('STARTER_HERO_BUTTON_1_ICON', null, CONFIG) && <img className='mr-4 w-6 h-6' src={siteConfig('STARTER_HERO_BUTTON_1_ICON', null, CONFIG)}/>}
                     {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG)}
                   </a>
                 </li>
                 }
                 {siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, CONFIG) &&
-                <li>
+                <li className="flex-1">
                   <a
                     href={siteConfig('STARTER_HERO_BUTTON_2_URL', null, CONFIG)}
                     target="_blank"
-                    className="inline-flex items-center justify-center rounded-md bg-white/[0.12] px-7 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark min-w-[200px]" rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-md bg-white/[0.12] px-7 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark w-full" rel="noreferrer"
                   >
-                    {siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG) && <img className='mr-4' src={siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG)}/>}
+                    {siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG) && <img className='mr-4 w-6 h-6' src={siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG)}/>}
                     {siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, CONFIG)}
                   </a>
                 </li>
